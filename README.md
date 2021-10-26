@@ -128,33 +128,33 @@ You will set up the tfiksglobal workspace here.
 
 You will set the following variables:
 
-appport - eg. 30080	for the Teastore app
+    appport - eg. 30080	for the Teastore app
 
-nbrapm - eg. 8	for the Teastore app
+    nbrapm - eg. 8	for the Teastore app
 
-nbrma - eg. 1	for the Teastore app
+    nbrma - eg. 1	for the Teastore app
 
-nbrsim - eg. 1	for the Teastore app
+    nbrsim - eg. 1	for the Teastore app
 
-nbrnet - eg. 0 for the Teastore app
+    nbrnet - eg. 0 for the Teastore app
 
-privatekey - your ssh private key that you used to provision your IKS cluster nodes
+    privatekey - your ssh private key that you used to provision your IKS cluster nodes
 
-url - eg. https://devnet.saas.appdynamics.com
+    url - eg. https://devnet.saas.appdynamics.com
 
-account	- eg. devnet
+    account	- eg. devnet
 
-namespaces	- eg. default
+    namespaces	- eg. default
 
-username	- eg. TBD, just enter a random str
+    username	- eg. TBD, just enter a random str
 
-password	- eg. TBD, just enter a random str
+    password	- eg. TBD, just enter a random str
 
-dockeruser - your user name for containers.cisco.com
+    dockeruser - your user name for containers.cisco.com
 
-dockerpass - your password for containers.cisco.com
+    dockerpass - your password for containers.cisco.com
 
-storename - your store name. eg. IKSChaiStore
+    storename - your store name. eg. IKSChaiStore
 
 Please also set this workspace to share its data with other workspaces in the organization by enabling Settings->General Settings->Share State Globally.
 
@@ -165,9 +165,9 @@ Set Execution Mode as Remote.Please also set this workspace to share its data wi
 
 You will set the following variables:
 
-ikswsname - eg. sb_iks, which is the workspace that created the IKS k8s cluster
+    ikswsname - eg. sb_iks, which is the workspace that created the IKS k8s cluster
 
-org - TFCB organization like "CiscoDevNet" or "Lab14"
+    org - TFCB organization like "CiscoDevNet" or "Lab14"
 
 4. 
 
@@ -177,13 +177,13 @@ Set Execution Mode as Agent and select the TF Cloud Agent that you have provisio
 
 You will set the following variables:
 
-ikswsname - eg. sb_iks, which is the workspace that created the IKS k8s cluster	
+    ikswsname - eg. sb_iks, which is the workspace that created the IKS k8s cluster	
 
-org - eg. Lab14, which is the TFCB organization	
-	
-hostwsname - tfikshost	
+    org - eg. Lab14, which is the TFCB organization	
+        
+    hostwsname - tfikshost	
 
-globalwsname - tfiksglobal
+    globalwsname - tfiksglobal
 
 5. 
 
@@ -193,9 +193,9 @@ Set Execution Mode as Agent and select the TF Cloud Agent that you have provisio
 
 You will set the following variables:
 
-org - eg. Lab14	
+    org - eg. Lab14	
 
-ikswsname - eg. sb_iks	
+    ikswsname - eg. sb_iks	
 
 
 6. 
@@ -206,13 +206,13 @@ Set Execution Mode as Agent and select the TF Cloud Agent that you have provisio
 
 You will set the following variables:
 
-org - TFCB organization like "CiscoDevNet" or "Lab14"
+    org - TFCB organization like "CiscoDevNet" or "Lab14"
 
-ikswsname - eg. sb_iks
+    ikswsname - eg. sb_iks
 
-globalwsname - tfiksglobal
+    globalwsname - tfiksglobal
 
-hostwsname	- tfikshost
+    hostwsname	- tfikshost
 
 7. 
 
@@ -222,9 +222,9 @@ Set Execution Mode as Agent and select the TF Cloud Agent that you have provisio
 
 You will set the following variables:
 
-org - TFCB organization like "CiscoDevNet" or "Lab14"
+    org - TFCB organization like "CiscoDevNet" or "Lab14"
 
-ikswsname - eg. sb_iks
+    ikswsname - eg. sb_iks
 
 
 8. 
@@ -235,9 +235,9 @@ Set Execution Mode as Agent and select the TF Cloud Agent that you have provisio
 
 You will set the following variables:
 
-org - TFCB organization like "CiscoDevNet" or "Lab14"
+    org - TFCB organization like "CiscoDevNet" or "Lab14"
 
-ikswsname - eg. sb_iks
+    ikswsname - eg. sb_iks
 
 9. 
 
@@ -247,13 +247,13 @@ Set Execution Mode as Agent and select the TF Cloud Agent that you have provisio
 
 You will set the following variables:
 
-hostwsname	- tfikshost
+    hostwsname	- tfikshost
 
-globalwsname - tfiksglobal
+    globalwsname - tfiksglobal
 
-org - TFCB organization like "CiscoDevNet" or "Lab14"
+    org - TFCB organization like "CiscoDevNet" or "Lab14"
 
-trigcount - trigger count, set to some random number
+    trigcount - trigger count, set to some random number
 
 10. 
 
@@ -263,11 +263,11 @@ Set Execution Mode as Agent and select the TF Cloud Agent that you have provisio
 
 You will set the following variables:
 
-hostwsname	- tfikshost
+    hostwsname	- tfikshost
 
-globalwsname - tfiksglobal
+    globalwsname - tfiksglobal
 
-org - TFCB organization like "CiscoDevNet" or "Lab14"
+    org - TFCB organization like "CiscoDevNet" or "Lab14"
 
 
 ### Step 3: Share variables with a Global Workspace
