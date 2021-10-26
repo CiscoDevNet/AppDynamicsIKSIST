@@ -51,7 +51,7 @@
 
 This use case addresses the first flow in the below diagram: 
 
-![alt text](https://github.com/prathjan/images/blob/main/tomflow.png?raw=true)
+![alt text](https://github.com/prathjan/images/blob/main/tomflow3.png?raw=true)
 
 ### Pre-requisites
 
@@ -284,7 +284,7 @@ Also, Execute the tfikshost TFCB workspace to setup the master node to run some 
 
 Check for a sucessful Run before progressing to the next step. Also, make a note of the master node IP address.
 
-### Step 5: Use RBAC script to create AppDynamics User and license rule
+### Step 5: Use RBAC script to create AppDynamics User, Role and license rule
 
 Execute the tfiksrbac TFCB workspace to set up the user/role/license rules in SAAS Controller. This will also create the k8s secret for the accesskey that will used to install the cluster agent in the cluster. Check for a sucessful Run before progressing to the next step.
 
