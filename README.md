@@ -63,10 +63,7 @@ This use case addresses the third flow in the diagram below:
 
 4. You will need access to a vSphere infrastructure with backend compute and storage provisioned
 
-5. You will also need an account in AppDynamics SAAS Controller and should have the API Client ID and Client Secret.
-
-
-7. You will create an account on containers.cisco.com and save the username and password. This is to download the docker images from the repo.
+5. You will create an account on containers.cisco.com and save the username and password. This is to download the docker images from the repo.
 
 ![alt text](https://github.com/prathjan/images/blob/main/repo.png?raw=true)
 
